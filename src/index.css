@@ -1,0 +1,48 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+
+body {
+  margin: 0;
+  background: rgb(145,145,145);
+  background: linear-gradient(9deg, rgba(145,145,145,1) 0%, rgba(255,255,255,1) 100%);
+  background-image: url("/assets/BGmain.jpg");
+  background-size: cover;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700 */
+
+.josefin-slab{
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.kalnia-glaze {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
